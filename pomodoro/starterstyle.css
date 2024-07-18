@@ -1,0 +1,43 @@
+body{
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+    font-family: "Permanent Marker", cursive;;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(19, 18, 18);
+}
+*{
+    border-radius: 5%;
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+.optionclass{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width: 100px;
+    height: 30px;
+    color: white;
+background-color: rgb(19, 18, 18);
+}
+button{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border: 1px SOLID black;
+    border-radius: 8%;
+}
+button:hover{
+    scale: 125%;
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+.StartTimerButton{
+    width: 300px;
+    height: 100px;
+    font-size: 20px;   
+}

@@ -1,0 +1,19 @@
+body{
+    min-height: 90vh;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    display: grid;
+    place-items: center;
+}
+h2{
+    font-weight: bolder;
+    font-size: 6vw;
+}
+.timer{
+    font-size: 13vw;
+    font-weight: bolder;
+}
+.restperiod{
+    font-size: 7vw;
+    font-weight: bolder;
+}
